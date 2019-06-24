@@ -37,7 +37,7 @@ typedef void (^NotificationAuthorizationHandler)(NSString *__nullable deviceID,
  * A Boolean property that indicates whether the extra alert view will be shown
  * before the library actually requests permissions to the system.
  */
-@property(nonatomic,assign) BOOL extraAlertEnabled;
+@property(nonatomic,assign) BOOL isExtraAlertEnabled;
 
 /**
  * @return whether or not user has granted access to the calendar
