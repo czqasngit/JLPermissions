@@ -7,7 +7,7 @@
 - (instancetype)init {
   self = [super init];
   if (self) {
-    [self setExtraAlertEnabled:YES];
+    [self setIsExtraAlertEnabled:YES];
   }
   return self;
 }
